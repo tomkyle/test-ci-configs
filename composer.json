@@ -45,10 +45,12 @@
     },
 
     "scripts": {
-        "phpstan": "phpstan analyse --configuration phpstan.neon --no-progress -vvv",
-        "phpcs": "php-cs-fixer fix -v --diff --dry-run --allow-risky=yes src/",
-        "phpcs-apply": "php-cs-fixer fix -vv --allow-risky=yes src/",
-        "phpunit": "phpunit --coverage-text",
+        "phpstan"     : "phpstan analyse --configuration phpstan.neon --no-progress -vvv",
+        "phpcs"       : "php-cs-fixer fix -v --diff --dry-run --allow-risky=yes src/",
+        "phpcs-apply" : "php-cs-fixer fix -vv --allow-risky=yes src/",
+
+        "phpunit"     : "phpunit --coverage-text",
+        "phpunit-coverage": "XDEBUG_MODE=coverage phpunit --coverage-clover tests/build/clover.xml",
 
         "test": [
             "@phpcs",
