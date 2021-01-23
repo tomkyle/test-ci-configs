@@ -1,3 +1,4 @@
+
 # .scrutinizer.yml
 
 build:
@@ -6,14 +7,13 @@ build:
     before:
       - rm composer.lock
 
-  # ests:
-  #  override:
-  #    -
-  #      # The 'phpdbg -qrr' will make Scrutinizer generating coverage with PHP 8
-  #      command: 'composer phpunit-coverage'
-  #      coverage:
-  #        file: 'tests/build/clover.xml'
-  #        format: 'clover'
+  tests:
+    override:
+      -
+        command: 'phpdbg -qrr vendor/bin/phpunit --coverage-clover tests/build/clover.xml'
+        coverage:
+          file: 'tests/build/clover.xml'
+          format: 'php-clover'
 
   nodes:
 
@@ -27,7 +27,7 @@ build:
 
     php80:
       environment:
-          php: 8.0
+        php: 8.0
 
 
 checks:
