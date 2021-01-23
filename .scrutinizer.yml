@@ -13,7 +13,7 @@ build:
         command: 'composer phpunit-coverage'
         coverage:
           file: 'tests/build/clover.xml'
-          format: 'php-clover'
+          format: 'clover'
 
   nodes:
 
