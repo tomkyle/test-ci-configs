@@ -30,8 +30,10 @@
   </php>
 
   <logging>
-  	<log type="coverage-clover" target="tests/build/clover.xml"/>
 	<testdoxHtml outputFile="tests/build/testdox.html"/>
 	<testdoxText outputFile="tests/build/testdox.txt"/>
+
+  	<!-- Needed by coveralls -->
+  	<log type="coverage-clover" target="tests/build/clover.xml"/>
   </logging>
 </phpunit>
