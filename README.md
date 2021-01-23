@@ -1,30 +1,6 @@
-<h1 align="center">PHP Package Boilerplate</h1>
+<h1 align="center">Testing CI config</h1>
 
-<p align="center"> A template repository for PHP package.</p>
-
-
-**Start Project:**
-
-```php
-$ composer create-project tomkyle/boilerplate-php new-project  
-```
-
-
-
-## Installation
-
-
-```bash
-$ composer require vendor/package:^1.0
-```
-
-This package requires a *PSR-18 HTTP client* implementation and a *PSR-17 HTT factory* implementation. Suggestions are [Guzzle 7](https://packagist.org/packages/guzzlehttp/guzzle) via [guzzlehttp/guzzle](https://packagist.org/packages/guzzlehttp/) and Nyholm's [nyholm/psr7](nyholm/psr7) which (despite its name) provides the PSR-17 factories as well:
-
-
-```bash
-$ composer require nyholm/psr7
-$ composer require guzzlehttp/guzzle
-```
+<p align="center">Trying to improve development practices that have, well, aged.</p>
 
 
 
