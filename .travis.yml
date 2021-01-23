@@ -17,7 +17,7 @@ before_script:
   - cp phpunit.xml.dist phpunit.xml
 
 script:
-  - composer phpunit
+  - phpunit
 
 after_script:
 
