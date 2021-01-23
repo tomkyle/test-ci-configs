@@ -4,6 +4,12 @@
 
 
 
+## CI Links
+
+https://scrutinizer-ci.com/g/tomkyle/test-ci-configs/inspections
+
+
+
 ## Unit tests and development
 
 1. Copy `phpunit.xml.dist` to `phpunit.xml` 
