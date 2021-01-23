@@ -8,6 +8,10 @@
 
 https://scrutinizer-ci.com/g/tomkyle/test-ci-configs/inspections
 
+https://travis-ci.com/github/tomkyle/test-ci-configs
+
+https://coveralls.io/github/tomkyle/test-ci-configs
+
 
 
 ## Unit tests and development
