@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\MyNamespace;
+namespace Vendor\Namespace;
 
 interface TokenInterface
 {

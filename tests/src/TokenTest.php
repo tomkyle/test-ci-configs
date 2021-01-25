@@ -1,7 +1,7 @@
 <?php
 namespace tests;
 
-use MyVendor\MyNamespace\Token;
+use Vendor\Namespace\Token;
 
 class TokenTest extends \PHPUnit\Framework\TestCase
 {
