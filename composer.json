@@ -48,10 +48,5 @@
             "@phpcs",
             "@phpunit"
         ]
-    },
-
-    "suggest": {
-        "nyholm/psr7": "PSR-17 factories",
-        "guzzlehttp/guzzle": "PSR-18 client (as of v7)"
     }
 }
