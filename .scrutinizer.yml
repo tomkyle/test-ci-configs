@@ -10,7 +10,8 @@ build:
   tests:
     override:
       -
-        command: 'phpdbg -qrr vendor/bin/phpunit --coverage-clover tests/build/clover.xml'
+        # command: 'phpdbg -qrr vendor/bin/phpunit --coverage-clover tests/build/clover.xml'
+        command: 'composer phpunit-coverage'
         coverage:
           file: 'tests/build/clover.xml'
           format: 'clover'
