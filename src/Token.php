@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\MyNamespace;
+namespace Vendor\Package;
 
 class Token implements TokenInterface
 {
