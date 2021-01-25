@@ -24,11 +24,6 @@
 	</testsuite>
   </testsuites>
 
-  <php>
-	<!-- CLI Logging output verbosity. Laminas uses integers! -->
-	<var name="LAMINAS_LOGLEVEL" value="4"/>
-  </php>
-
   <logging>
 	<testdoxHtml outputFile="tests/build/testdox.html"/>
 	<testdoxText outputFile="tests/build/testdox.txt"/>
