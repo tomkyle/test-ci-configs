@@ -6,13 +6,21 @@
 
 ## CI Links
 
-https://scrutinizer-ci.com/g/tomkyle/test-ci-configs/inspections
+### Travis CI
 
 https://travis-ci.com/github/tomkyle/test-ci-configs
+[![Build Status](https://img.shields.io/travis/com/tomkyle/test-ci-configs.svg?label=Travis%20CI)](https://travis-ci.org/tomkyle/test-ci-configs)
+
+### Scrutinizer
+
+https://scrutinizer-ci.com/g/tomkyle/test-ci-configs/inspections
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/tomkyle/test-ci-configs/badges/quality-score.png)](https://scrutinizer-ci.com/g/tomkyle/test-ci-configs/)
+[![Code Coverage](https://scrutinizer-ci.com/g/tomkyle/test-ci-configs/badges/coverage.png)](https://scrutinizer-ci.com/g/tomkyle/test-ci-configs/)
+[![Build Status](https://scrutinizer-ci.com/g/tomkyle/test-ci-configs/badges/build.png)](https://scrutinizer-ci.com/g/tomkyle/test-ci-configs/)
+
+### Coveralls
 
 https://coveralls.io/github/tomkyle/test-ci-configs
-
-
 
 ## Unit tests and development
 
