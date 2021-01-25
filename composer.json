@@ -43,7 +43,6 @@
         "phpcs-apply" : "php-cs-fixer fix -vv --allow-risky=yes src/",
 
         "phpunit"     : "phpunit --coverage-text",
-        "phpunit-coverage" : "phpunit  --coverage-clover tests/build/clover.xml",
 
         "test": [
             "@phpcs",
